@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build output
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Test results
+*.xcresult
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Secrets and local configuration
+.env
+.env.*
+*.xcconfig.local
+*.p12
+*.mobileprovision
+*.cer
+*.p8
+
+# ローカル実行ログ
+.logs/
+
+# dev の接続先（公開リポジトリに載せない。friend-search-infra の scripts/write-ios-config.sh が書き出す）
+friend-search/friend-search/API/DevEndpoint.swift
